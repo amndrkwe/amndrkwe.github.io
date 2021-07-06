@@ -9,13 +9,14 @@ body {
     text-rendering: optimizeLegibility;
     padding: 64px;
     max-width: 820px;
-    text-align: left;
+    
     background-color: #121212;
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.7;
     color: #CECDCD;
-
+    
+    text-justify: auto;
     font-size: 20px;
 }
 
@@ -95,6 +96,10 @@ h4,
 h5,
 h6,
 strong,
+
+p {
+    text-align: justify;
+}
 
 b {
     text-decoration: none;
