@@ -12,7 +12,7 @@ body {
     background-color: #191A1A;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    line-height: 1.6;
+    line-height: 1.7;
     color: #CECDCD;
 
     font-size: 20px;
@@ -22,7 +22,6 @@ body {
 {
     height:100%;
 }
-
 
 .btitle {
     color: #FEFDFD;
@@ -34,7 +33,7 @@ body {
 }
 
 .bsubtitle {
-    color: #FDFCFC;
+    color: #FDFCFC; 
     font-family: 'Roboto', sans-serif;
     font-weight: medium;
     font-style: italic;
