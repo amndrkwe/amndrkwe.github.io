@@ -15,8 +15,8 @@ body {
     overflow-wrap: break-word;
     line-height: 1.7;
     color: #CECDCD;
+
     
-    text-justify: auto;
     font-size: 20px;
 }
 
@@ -31,7 +31,7 @@ body {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3em;
 }
 
 .bsubtitle {
@@ -58,7 +58,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: medium;
     font-style: italic;
-    font-size: 10;
+    font-size: 0.7em;
     text-align: center;
     padding: 20px;
     color: #f2f2f2d3;
@@ -79,7 +79,7 @@ body {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 10;
+    font-size: 1em;
 }
 
 code {
@@ -89,9 +89,29 @@ code {
     color: #f2f2f2;
 }
 
-h1,
-h2,
-h3,
+h1  {
+    color: #FEFDFD;
+
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    color: #FDFCFC; 
+    font-weight: medium;
+    margin-bottom: 20px;
+    font-size: 25;
+}
+
+h3 {
+    color: #FDFCFC;
+
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 h4,
 h5,
 h6,
@@ -99,6 +119,13 @@ strong,
 
 p {
     text-align: justify;
+}
+
+mono {
+    text-align: left;
+    font-weight: lighter;
+    font-family: 'Roboto Mono', monospace;
+    color: #FDFCFC;
 }
 
 b {
@@ -111,17 +138,19 @@ b {
 a {
     position: relative;
     
-    color: #e7e7e7;
     text-decoration: none;
-    font-weight: bold;
+
+    color: rgb(225, 225, 225);
+    font-style: italic;
     padding: 20px;
     margin: -20px;
-    /*color: #ff5e6c;*/
 }
 
 a:hover {
     top: '-15px';
-    color: #fefdfd;
+    color: rgb(255, 255, 255);
+    text-decoration: rgb(0, 0, 0, 1);
+    font-weight: 800;
 }
 
 u {
@@ -129,24 +158,6 @@ u {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-}
-
-
-.title {
-    text-decoration: none;
-    border: 0;
-}
-
-.title h1 {
-    font-size: 1.5em;
-}
-
-.title span {
-    font-weight: 400;
-}
-
-nav a {
-    margin-right: 10px;
 }
 
 textarea,

@@ -25,45 +25,6 @@ body {
     height:100%;
 }
 
-.btitle {
-    color: #FEFDFD;
-
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-}
-
-.bsubtitle {
-    color: #FDFCFC; 
-    font-family: 'Roboto', sans-serif;
-    font-weight: medium;
-    font-style: italic;
-    margin-bottom: 20px;
-    font-size: 25;
-}
-
-.chapter {
-    color: #FDFCFC;
-
-    margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 30px;
-
-}
-
-.description {
-    font-family: 'Roboto', sans-serif;
-    font-weight: medium;
-    font-style: italic;
-    font-size: 10;
-    text-align: center;
-    padding: 20px;
-    color: #f2f2f2d3;
-}
-
 .email {
     font-family: 'Roboto', sans-serif;
     font-weight: medium;
@@ -75,12 +36,6 @@ body {
     vertical-align : bottom;
 }
 
-.author {
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 10;
-}
 
 code {
     text-align: left;
